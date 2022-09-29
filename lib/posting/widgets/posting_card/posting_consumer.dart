@@ -1,7 +1,7 @@
+import 'package:five_widgets_architecture/posting/domain/postings_cubit.dart';
+import 'package:five_widgets_architecture/posting/widgets/posting_card/posting_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:five_widgets_architecture/posting/domain/postings_cubit.dart';
-import 'package:five_widgets_architecture/posting/presentation/posting_card/posting_card.dart';
 
 class PostingConsumer extends ConsumerWidget {
   final String postingId;

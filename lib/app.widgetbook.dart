@@ -2,8 +2,8 @@
 
 import 'dart:core';
 
-import 'package:five_widgets_architecture/posting/presentation/posting_card/posting_card_layout_widgetbook.dart';
-import 'package:five_widgets_architecture/posting/presentation/posting_input/posting_input_layout_widgetbook.dart';
+import 'package:five_widgets_architecture/posting/widgets/posting_card/posting_card_layout_widgetbook.dart';
+import 'package:five_widgets_architecture/posting/widgets/posting_input/posting_input_layout_widgetbook.dart';
 import 'package:five_widgets_architecture/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';

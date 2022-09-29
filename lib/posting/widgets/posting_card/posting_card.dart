@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:five_widgets_architecture/posting/domain/posting.dart';
-import 'package:five_widgets_architecture/posting/presentation/posting_card/posting_card_layout.dart';
+import 'package:five_widgets_architecture/posting/widgets/posting_card/posting_card_layout.dart';
+import 'package:flutter/material.dart';
 
 class PostingCard extends StatelessWidget {
   final Posting posting;

@@ -1,5 +1,5 @@
+import 'package:five_widgets_architecture/posting/widgets/posting_card/posting_card_layout.dart';
 import 'package:flutter/material.dart';
-import 'package:five_widgets_architecture/posting/presentation/posting_card/posting_card_layout.dart';
 import 'package:widgetbook/widgetbook.dart' hide WidgetbookUseCase;
 import 'package:widgetbook_annotation/widgetbook_annotation.dart';
 

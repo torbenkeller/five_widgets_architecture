@@ -1,5 +1,5 @@
+import 'package:five_widgets_architecture/posting/widgets/posting_input/posting_input_consumer.dart';
 import 'package:flutter/material.dart';
-import 'package:five_widgets_architecture/posting/presentation/posting_input/posting_input_consumer.dart';
 
 class PostingsPageScaffold extends StatelessWidget {
   final Widget body;
@@ -19,11 +19,14 @@ class PostingsPageScaffold extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Postings'),
         ),
-        body: Column(
-          children: [
-            Expanded(child: body),
-            const PostingInputConsumer(),
-          ],
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+          child: Column(
+            children: [
+              Expanded(child: body),
+              const PostingInputConsumer(),
+            ],
+          ),
         ),
       ),
     );

@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:five_widgets_architecture/posting/presentation/postings_page.dart';
+import 'package:five_widgets_architecture/posting/pages/postings/postings_page.dart';
 import 'package:five_widgets_architecture/theme/app_theme.dart';
+import 'package:flutter/material.dart';
 import 'package:widgetbook_annotation/widgetbook_annotation.dart';
 
 @WidgetbookApp.material(
